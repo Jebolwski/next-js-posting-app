@@ -12,7 +12,7 @@ import {
 } from "firebase/firestore";
 import Message from "../components/message";
 
-export default function dashboard() {
+export default function Dashboard() {
   const [user, loading] = useAuthState(auth);
   const [allPosts, setAllPosts] = useState([]);
   const router = useRouter();

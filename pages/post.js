@@ -13,7 +13,7 @@ import {
 } from "firebase/firestore";
 import { toast } from "react-toastify";
 
-export default function post(params) {
+export default function Post(params) {
   const [user, loading] = useAuthState(auth);
   const [post, setPost] = useState({ description: "" });
   const router = useRouter();
