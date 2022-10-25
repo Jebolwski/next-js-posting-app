@@ -82,8 +82,8 @@ export default function Details(params) {
         </button>
       </div>
       <h2>Comments</h2>
-      {allMessages?.map((message) => {
-        return <Comment post={message} key={message.id} />;
+      {allMessages?.map((message, index) => {
+        return <Comment post={message} key={index} />;
       })}
     </div>
   );
