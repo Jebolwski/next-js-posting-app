@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 export default function Comment(params) {
-  console.log(params.post);
   return (
     <div className="shadow-md p-8 border-b-2 rounded-lg">
       <div className="flex items-center gap-3">
